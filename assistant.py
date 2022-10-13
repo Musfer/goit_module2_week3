@@ -50,6 +50,7 @@ def main():
         #     command = request
         # else:
         #     command = input()
+
         command = input()
         mode, data = def_mod(command)
         output = commands.get(mode)(book, data)
@@ -59,6 +60,7 @@ def main():
             book.write_to_file()
             book.notes._save()
             sys.exit()
+
 
 
 def create_completer(book: AddressBook):

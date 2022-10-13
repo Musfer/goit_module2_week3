@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 inquirerpy = "0.3.4"
+keyboard = "0.13.5"
 
 [dev-packages]
 
 [requires]
 python_version = "3.10"
-
