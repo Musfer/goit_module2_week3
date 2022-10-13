@@ -2,7 +2,7 @@ import os
 import sys
 import shutil 
 
-# from InquirerPy import inquirer, get_style
+from InquirerPy import inquirer, get_style
 
 from classes import AddressBook
 from commands import commands, def_mod
